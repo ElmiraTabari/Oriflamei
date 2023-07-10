@@ -61,7 +61,7 @@ document
     "div.navbar>div.fullmenu>div.inner-fullmenu>ul.fullmenu>li.ecatalogue>a.ecatalogue"
   )
   .addEventListener("mouseenter", function () {
-    document.querySelector("div.ecatlogue").classList.toggle("activecat");
+    document.querySelector("div.ecatlogue").classList.add("activecat");
   });
 document
   .querySelector(
